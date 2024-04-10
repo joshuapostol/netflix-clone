@@ -19,7 +19,7 @@ android {
         versionName "1.1"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
-        buildConfigField("String", "98a3f245a5eb8805fa7ea762d6f83597", "\"${localProperties['api_key']}\"")
+        buildConfigField("String", "https://api.themoviedb.org/3/movie/550?api_key=98a3f245a5eb8805fa7ea762d6f83597", "\"${localProperties['api_key']}\"")
         buildConfigField("boolean", "STETHO_ENABLED", "false")
     }
 
